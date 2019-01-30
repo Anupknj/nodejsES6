@@ -1,0 +1,42 @@
+{
+  "name": "nestemp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel server.js --out-dir dist --watch --source-maps",
+    "dev-start": "babel-watch server.js",
+    "start": "node server.js"
+  },
+  "author": "ANJ",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "local-storage-es6": "^1.0.28",
+    "moment": "^2.23.0",
+    "mongoose": "^5.4.1",
+    "morgan": "^1.9.1",
+    "node-latest-version": "^1.0.16",
+    "node-localstorage": "^1.3.1",
+    "uuid": "^3.3.2",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-register": "^6.26.0",
+    "babel-watch": "^2.0.7",
+    "eslint": "^5.11.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "description": ""
+}
